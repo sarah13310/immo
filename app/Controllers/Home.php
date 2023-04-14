@@ -2,9 +2,6 @@
 
 namespace App\Controllers;
 
-use Config\Facebook;
-use Google\Client;
-use Google\Service\Oauth2;
 use App\Libraries\FacebookLogin;
 use App\Libraries\GoogleLogin;
 
@@ -18,13 +15,12 @@ class Home extends BaseController
     function __construct()
     {
         //init objet login pour google
-        $this->google=new GoogleLogin();
-        $this->auth_g=$this->google->getLoginUrl();
-        
+        $this->google = new GoogleLogin();
+        $this->auth_g = $this->google->getLoginUrl();
+
         //init objet login pour facebook
-        $this->facebook = new FacebookLogin();       
-        $this->auth_fb=$this->facebook->getLoginUrl();
-        
+        $this->facebook = new FacebookLogin();
+        $this->auth_fb = $this->facebook->getLoginUrl();
     }
 
     public function index()
@@ -49,13 +45,10 @@ class Home extends BaseController
     public function loginWithGoogle()
     {
         if ($this->google === null) return;
-        $token=$this->google->getAccessToken($this->request->getVar("code"));
+        $token = $this->google->getAccessToken($this->request->getVar("code"));
         if (!isset($token['error'])) {
-            //$this->clientgoogle->setAccessToken($token['access_token']);
             session()->access_token = $token;
-            //$google_service = new OAuth2($this->clientgoogle);
-            //$info = $google_service->userinfo->get();
-            $info= $this->google->getUserProfile($token); 
+            $info = $this->google->getUserProfile($token);
             session()->name = $info->name;
             session()->mail = $info->email;
             session()->id = $info->id;
@@ -68,7 +61,6 @@ class Home extends BaseController
             ];
             return view('/User/profile.php', $data);
         } else {
-            
             header('Location: ' . filter_var($this->auth_g, FILTER_SANITIZE_URL));
         }
     }
@@ -97,11 +89,9 @@ class Home extends BaseController
             session()->name = $info['name'];
             session()->mail = $info['email'];
             session()->id = $info['id'];
-            session()->picture = $info['picture'];      
+            session()->picture = $info['picture'];
             //
             return view('/User/profile.php', $data);
-        }    
+        }
     }
-       
-    
 }
