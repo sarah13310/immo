@@ -94,7 +94,11 @@ class Home extends BaseController
                 "email" => $info['email'],
                 "picture" => $info['picture']['url'],
             ];
-            
+            session()->name = $info['name'];
+            session()->mail = $info['email'];
+            session()->id = $info['id'];
+            session()->picture = $info['picture'];      
+            //
             return view('/User/profile.php', $data);
         }    
     }
