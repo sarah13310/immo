@@ -28,8 +28,8 @@ class FacebookLogin
             $this->url_redirect = $config->url_redirect;
         } else {
             $this->fb = new \Facebook\Facebook([
-                "app_id" => "1177289809606513",
-                "app_secret" => "034210c0ceded476912057e3e1529208",
+                "app_id" =>"738548054631092",//"1177289809606513",
+                "app_secret" => "2052fef5d3d19d3db3aa7d79002111f9",//"034210c0ceded476912057e3e1529208",
                 "default_graph" => "v2.5",
             ]);
             $this->url_redirect = base_url() . 'facebook/auth';
@@ -76,6 +76,8 @@ class FacebookLogin
 
     public function setState($state)
     {
+        //var_dump($state);
+        //die();
         if ($state) {
             
             $this->helper->getPersistentDataHandler()->set('state', $state);
