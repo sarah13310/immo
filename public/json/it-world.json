@@ -1,0 +1,798 @@
+[
+  {
+    "pays": "Afghanistan",
+    "code_telephone": "+93"
+  },
+  {
+    "pays": "Afrique du Sud",
+    "code_telephone": "+27"
+  },
+  {
+    "pays": "Albanie",
+    "code_telephone": "+355"
+  },
+  {
+    "pays": "Algérie",
+    "code_telephone": "+213"
+  },
+  {
+    "pays": "Allemagne",
+    "code_telephone": "+49"
+  },
+  {
+    "pays": "Andorre",
+    "code_telephone": "+376"
+  },
+  {
+    "pays": "Angola",
+    "code_telephone": "+244"
+  },
+  {
+    "pays": "Antigua-et-Barbuda",
+    "code_telephone": "+1-268"
+  },
+  {
+    "pays": "Arabie saoudite",
+    "code_telephone": "+966"
+  },
+  {
+    "pays": "Argentine",
+    "code_telephone": "+54"
+  },
+  {
+    "pays": "Arménie",
+    "code_telephone": "+374"
+  },
+  {
+    "pays": "Australie",
+    "code_telephone": "+61"
+  },
+  {
+    "pays": "Autriche",
+    "code_telephone": "+43"
+  },
+  {
+    "pays": "Azerbaïdjan",
+    "code_telephone": "+994"
+  },
+  {
+    "pays": "Bahamas",
+    "code_telephone": "+1-242"
+  },
+  {
+    "pays": "Bahreïn",
+    "code_telephone": "+973"
+  },
+  {
+    "pays": "Bangladesh",
+    "code_telephone": "+880"
+  },
+  {
+    "pays": "Barbade",
+    "code_telephone": "+1-246"
+  },
+  {
+    "pays": "Belgique",
+    "code_telephone": "+32"
+  },
+  {
+    "pays": "Belize",
+    "code_telephone": "+501"
+  },
+  {
+    "pays": "Bénin",
+    "code_telephone": "+229"
+  },
+  {
+    "pays": "Bhoutan",
+    "code_telephone": "+975"
+  },
+  {
+    "pays": "Biélorussie",
+    "code_telephone": "+375"
+  },
+  {
+    "pays": "Birmanie (Myanmar)",
+    "code_telephone": "+95"
+  },
+  {
+    "pays": "Bolivie",
+    "code_telephone": "+591"
+  },
+  {
+    "pays": "Bosnie-Herzégovine",
+    "code_telephone": "+387"
+  },
+  {
+    "pays": "Botswana",
+    "code_telephone": "+267"
+  },
+  {
+    "pays": "Brésil",
+    "code_telephone": "+55"
+  },
+  {
+    "pays": "Brunei",
+    "code_telephone": "+673"
+  },
+  {
+    "pays": "Bulgarie",
+    "code_telephone": "+359"
+  },
+  {
+    "pays": "Burkina Faso",
+    "code_telephone": "+226"
+  },
+  {
+    "pays": "Burundi",
+    "code_telephone": "+257"
+  },
+  {
+    "pays": "Cambodge",
+    "code_telephone": "+855"
+  },
+  {
+    "pays": "Cameroun",
+    "code_telephone": "+237"
+  },
+  {
+    "pays": "Canada",
+    "code_telephone": "+1"
+  },
+  {
+    "pays": "Cap-Vert",
+    "code_telephone": "+238"
+  },
+  {
+    "pays": "République centrafricaine",
+    "code_telephone": "+236"
+  },
+  {
+    "pays": "Chili",
+    "code_telephone": "+56"
+  },
+  {
+    "pays": "Chine",
+    "code_telephone": "+86"
+  },
+  {
+    "pays": "Chypre",
+    "code_telephone": "+357"
+  },
+  {
+    "pays": "Colombie",
+    "code_telephone": "+57"
+  },
+  {
+    "pays": "Comores",
+    "code_telephone": "+269"
+  },
+  {
+    "pays": "République du Congo",
+    "code_telephone": "+242"
+  },
+  {
+    "pays": "République démocratique du Congo",
+    "code_telephone": "+243"
+  },
+  {
+    "pays": "Corée du Nord",
+    "code_telephone": "+850"
+  },
+  {
+    "pays": "Corée du Sud",
+    "code_telephone": "+82"
+  },
+  {
+    "pays": "Costa Rica",
+    "code_telephone": "+506"
+  },
+  {
+    "pays": "Côte d'Ivoire",
+    "code_telephone": "+225"
+  },
+  {
+    "pays": "Croatie",
+    "code_telephone": "+385"
+  },
+  {
+    "pays": "Cuba",
+    "code_telephone": "+53"
+  },
+  {
+    "pays": "Danemark",
+    "code_telephone": "+45"
+  },
+  {
+    "pays": "Djibouti",
+    "code_telephone": "+253"
+  },
+  {
+    "pays": "Dominique",
+    "code_telephone": "+1-767"
+  },
+  {
+    "pays": "Égypte",
+    "code_telephone": "+20"
+  },
+  {
+    "pays": "Émirats arabes unis",
+    "code_telephone": "+971"
+  },
+  {
+    "pays": "Équateur",
+    "code_telephone": "+593"
+  },
+  {
+    "pays": "Érythrée",
+    "code_telephone": "+291"
+  },
+  {
+    "pays": "Espagne",
+    "code_telephone": "+34"
+  },
+  {
+    "pays": "Estonie",
+    "code_telephone": "+372"
+  },
+  {
+    "pays": "États-Unis",
+    "code_telephone": "+1"
+  },
+  {
+    "pays": "Éthiopie",
+    "code_telephone": "+251"
+  },
+  {
+    "pays": "Fidji",
+    "code_telephone": "+679"
+  },
+  {
+    "pays": "Finlande",
+    "code_telephone": "+358"
+  },
+  {
+    "pays": "France",
+    "code_telephone": "+33"
+  },
+  {
+    "pays": "Gabon",
+    "code_telephone": "+241"
+  },
+  {
+    "pays": "Gambie",
+    "code_telephone": "+220"
+  },
+  {
+    "pays": "Géorgie",
+    "code_telephone": "+995"
+  },
+  {
+    "pays": "Ghana",
+    "code_telephone": "+233"
+  },
+  {
+    "pays": "Grèce",
+    "code_telephone": "+30"
+  },
+  {
+    "pays": "Grenade",
+    "code_telephone": "+1-473"
+  },
+  {
+    "pays": "Guatemala",
+    "code_telephone": "+502"
+  },
+  {
+    "pays": "Guinée",
+    "code_telephone": "+224"
+  },
+  {
+    "pays": "Guinée-Bissau",
+    "code_telephone": "+245"
+  },
+  {
+    "pays": "Guinée équatoriale",
+    "code_telephone": "+240"
+  },
+  {
+    "pays": "Guyana",
+    "code_telephone": "+592"
+  },
+  {
+    "pays": "Haïti",
+    "code_telephone": "+509"
+  },
+  {
+    "pays": "Honduras",
+    "code_telephone": "+504"
+  },
+  {
+    "pays": "Hongrie",
+    "code_telephone": "+36"
+  },
+  {
+    "pays": "Inde",
+    "code_telephone": "+91"
+  },
+  {
+    "pays": "Indonésie",
+    "code_telephone": "+62"
+  },
+  {
+    "pays": "Iran",
+    "code_telephone": "+98"
+  },
+  {
+    "pays": "Irak",
+    "code_telephone": "+964"
+  },
+  {
+    "pays": "Irlande",
+    "code_telephone": "+353"
+  },
+  {
+    "pays": "Islande",
+    "code_telephone": "+354"
+  },
+  {
+    "pays": "Israël",
+    "code_telephone": "+972"
+  },
+  {
+    "pays": "Italie",
+    "code_telephone": "+39"
+  },
+  {
+    "pays": "Jamaïque",
+    "code_telephone": "+1-876"
+  },
+  {
+    "pays": "Japon",
+    "code_telephone": "+81"
+  },
+  {
+    "pays": "Jordanie",
+    "code_telephone": "+962"
+  },
+  {
+    "pays": "Kazakhstan",
+    "code_telephone": "+7"
+  },
+  {
+    "pays": "Kenya",
+    "code_telephone": "+254"
+  },
+  {
+    "pays": "Kirghizistan",
+    "code_telephone": "+996"
+  },
+  {
+    "pays": "Kiribati",
+    "code_telephone": "+686"
+  },
+  {
+    "pays": "Koweït",
+    "code_telephone": "+965"
+  },
+  {
+    "pays": "Laos",
+    "code_telephone": "+856"
+  },
+  {
+    "pays": "Lesotho",
+    "code_telephone": "+266"
+  },
+  {
+    "pays": "Lettonie",
+    "code_telephone": "+371"
+  },
+  {
+    "pays": "Liban",
+    "code_telephone": "+961"
+  },
+  {
+    "pays": "Liberia",
+    "code_telephone": "+231"
+  },
+  {
+    "pays": "Libye",
+    "code_telephone": "+218"
+  },
+  {
+    "pays": "Liechtenstein",
+    "code_telephone": "+423"
+  },
+  {
+    "pays": "Lituanie",
+    "code_telephone": "+370"
+  },
+  {
+    "pays": "Luxembourg",
+    "code_telephone": "+352"
+  },
+  {
+    "pays": "Macédoine",
+    "code_telephone": "+389"
+  },
+  {
+    "pays": "Madagascar",
+    "code_telephone": "+261"
+  },
+  {
+    "pays": "Malaisie",
+    "code_telephone": "+60"
+  },
+  {
+    "pays": "Malawi",
+    "code_telephone": "+265"
+  },
+  {
+    "pays": "Maldives",
+    "code_telephone": "+960"
+  },
+  {
+    "pays": "Mali",
+    "code_telephone": "+223"
+  },
+  {
+    "pays": "Malte",
+    "code_telephone": "+356"
+  },
+  {
+    "pays": "Maroc",
+    "code_telephone": "+212"
+  },
+  {
+    "pays": "Marshall",
+    "code_telephone": "+692"
+  },
+  {
+    "pays": "Maurice",
+    "code_telephone": "+230"
+  },
+  {
+    "pays": "Mauritanie",
+    "code_telephone": "+222"
+  },
+  {
+    "pays": "Mexique",
+    "code_telephone": "+52"
+  },
+  {
+    "pays": "Micronésie",
+    "code_telephone": "+691"
+  },
+  {
+    "pays": "Moldavie",
+    "code_telephone": "+373"
+  },
+  {
+    "pays": "Monaco",
+    "code_telephone": "+377"
+  },
+  {
+    "pays": "Mongolie",
+    "code_telephone": "+976"
+  },
+  {
+    "pays": "Monténégro",
+    "code_telephone": "+382"
+  },
+  {
+    "pays": "Mozambique",
+    "code_telephone": "+258"
+  },
+  {
+    "pays": "Myanmar",
+    "code_telephone": "+95"
+  },
+  {
+    "pays": "Namibie",
+    "code_telephone": "+264"
+  },
+  {
+    "pays": "Nauru",
+    "code_telephone": "+674"
+  },
+  {
+    "pays": "Népal",
+    "code_telephone": "+977"
+  },
+  {
+    "pays": "Nicaragua",
+    "code_telephone": "+505"
+  },
+  {
+    "pays": "Niger",
+    "code_telephone": "+227"
+  },
+  {
+    "pays": "Nigeria",
+    "code_telephone": "+234"
+  },
+  {
+    "pays": "Niue",
+    "code_telephone": "+683"
+  },
+  {
+    "pays": "Norvège",
+    "code_telephone": "+47"
+  },
+  {
+    "pays": "Oman",
+    "code_telephone": "+968"
+  },
+  {
+    "pays": "Ouganda",
+    "code_telephone": "+256"
+  },
+  {
+    "pays": "Ouzbékistan",
+    "code_telephone": "+998"
+  },
+  {
+    "pays": "Pakistan",
+    "code_telephone": "+92"
+  },
+  {
+    "pays": "Palaos",
+    "code_telephone": "+680"
+  },
+  {
+    "pays": "Palestine",
+    "code_telephone": "+970"
+  },
+  {
+    "pays": "Panama",
+    "code_telephone": "+507"
+  },
+  {
+    "pays": "Papouasie-Nouvelle-Guinée",
+    "code_telephone": "+675"
+  },
+  {
+    "pays": "Paraguay",
+    "code_telephone": "+595"
+  },
+  {
+    "pays": "Pays-Bas",
+    "code_telephone": "+31"
+  },
+  {
+    "pays": "Pérou",
+    "code_telephone": "+51"
+  },
+  {
+    "pays": "Philippines",
+    "code_telephone": "+63"
+  },
+  {
+    "pays": "Pologne",
+    "code_telephone": "+48"
+  },
+  {
+    "pays": "Portugal",
+    "code_telephone": "+351"
+  },
+  {
+    "pays": "Qatar",
+    "code_telephone": "+974"
+  },
+  {
+    "pays": "République centrafricaine",
+    "code_telephone": "+236"
+  },
+  {
+    "pays": "République démocratique du Congo",
+    "code_telephone": "+243"
+  },
+  {
+    "pays": "République dominicaine",
+    "code_telephone": "+1-809, +1-829, +1-849"
+  },
+  {
+    "pays": "République tchèque",
+    "code_telephone": "+420"
+  },
+  {
+    "pays": "Roumanie",
+    "code_telephone": "+40"
+  },
+  {
+    "pays": "Royaume-Uni",
+    "code_telephone": "+44"
+  },
+  {
+    "pays": "Russie",
+    "code_telephone": "+7"
+  },
+  {
+    "pays": "Rwanda",
+    "code_telephone": "+250"
+  },
+  {
+    "pays": "Saint-Kitts-et-Nevis",
+    "code_telephone": "+1-869"
+  },
+  {
+    "pays": "Sainte-Lucie",
+    "code_telephone": "+1-758"
+  },
+  {
+    "pays": "Saint-Marin",
+    "code_telephone": "+378"
+  },
+  {
+    "pays": "Saint-Vincent-et-les-Grenadines",
+    "code_telephone": "+1-784"
+  },
+  {
+    "pays": "Salomon",
+    "code_telephone": "+677"
+  },
+  {
+    "pays": "Salvador",
+    "code_telephone": "+503"
+  },
+  {
+    "pays": "Samoa",
+    "code_telephone": "+685"
+  },
+  {
+    "pays": "Sao Tomé-et-Principe",
+    "code_telephone": "+239"
+  },
+  {
+    "pays": "Sénégal",
+    "code_telephone": "+221"
+  },
+  {
+    "pays": "Serbie",
+    "code_telephone": "+381"
+  },
+  {
+    "pays": "Seychelles",
+    "code_telephone": "+248"
+  },
+  {
+    "pays": "Sierra Leone",
+    "code_telephone": "+232"
+  },
+  {
+    "pays": "Singapour",
+    "code_telephone": "+65"
+  },
+  {
+    "pays": "Slovaquie",
+    "code_telephone": "+421"
+  },
+  {
+    "pays": "Slovénie",
+    "code_telephone": "+386"
+  },
+  {
+    "pays": "Somalie",
+    "code_telephone": "+252"
+  },
+  {
+    "pays": "Soudan",
+    "code_telephone": "+249"
+  },
+  {
+    "pays": "Soudan du Sud",
+    "code_telephone": "+211"
+  },
+  {
+    "pays": "Sri Lanka",
+    "code_telephone": "+94"
+  },
+  {
+    "pays": "Suède",
+    "code_telephone": "+46"
+  },
+  {
+    "pays": "Suisse",
+    "code_telephone": "+41"
+  },
+  {
+    "pays": "Suriname",
+    "code_telephone": "+597"
+  },
+  {
+    "pays": "Swaziland",
+    "code_telephone": "+268"
+  },
+  {
+    "pays": "Syrie",
+    "code_telephone": "+963"
+  },
+  {
+    "pays": "Tadjikistan",
+    "code_telephone": "+992"
+  },
+  {
+    "pays": "Taïwan",
+    "code_telephone": "+886"
+  },
+  {
+    "pays": "Tanzanie",
+    "code_telephone": "+255"
+  },
+  {
+    "pays": "Tchad",
+    "code_telephone": "+235"
+  },
+  {
+    "pays": "Thaïlande",
+    "code_telephone": "+66"
+  },
+  {
+    "pays": "Timor oriental",
+    "code_telephone": "+670"
+  },
+  {
+    "pays": "Togo",
+    "code_telephone": "+228"
+  },
+  {
+    "pays": "Tonga",
+    "code_telephone": "+676"
+  },
+  {
+    "pays": "Trinité-et-Tobago",
+    "code_telephone": "+1-868"
+  },
+  {
+    "pays": "Tunisie",
+    "code_telephone": "+216"
+  },
+  {
+    "pays": "Turkménistan",
+    "code_telephone": "+993"
+  },
+  {
+    "pays": "Turquie",
+    "code_telephone": "+90"
+  },
+  {
+    "pays": "Tuvalu",
+    "code_telephone": "+688"
+  },
+  {
+    "pays": "Ukraine",
+    "code_telephone": "+380"
+  },
+  {
+    "pays": "Uruguay",
+    "code_telephone": "+598"
+  },
+  {
+    "pays": "Vanuatu",
+    "code_telephone": "+678"
+  },
+  {
+    "pays": "Vatican",
+    "code_telephone": "+379"
+  },
+  {
+    "pays": "Venezuela",
+    "code_telephone": "+58"
+  },
+  {
+    "pays": "Viêt Nam",
+    "code_telephone": "+84"
+  },
+  {
+    "pays": "Yémen",
+    "code_telephone": "+967"
+  },
+  {
+    "pays": "Zambie",
+    "code_telephone": "+260"
+  },
+  {
+    "pays": "Zimbabwe",
+    "code_telephone": "+263"
+  }
+]

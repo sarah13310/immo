@@ -9,6 +9,9 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 use App\Models\UserModel;
+use App\Models\PropertyModel;
+use App\Models\AddressModel;
+
 /**
  * Class BaseController
  *
@@ -36,16 +39,16 @@ abstract class BaseController extends Controller
      * @var array
      */
     protected $helpers = [];
-    protected $adress_model=NULL;
-    protected $bill_model=NULL;
-    protected $claim_model=NULL;
-    protected $picture_model=NULL;
-    protected $room_model=NULL;
-    protected $property_model=NULL;
-    protected $user_model=NULL;
-    
-    protected $user_has_bill_model=NULL;
-    protected $user_has_address_model=NULL;
+    protected $address_model = NULL;
+    protected $bill_model = NULL;
+    protected $claim_model = NULL;
+    protected $picture_model = NULL;
+    protected $room_model = NULL;
+    protected $property_model = NULL;
+    protected $user_model = NULL;
+
+    protected $user_has_bill_model = NULL;
+    protected $user_has_address_model = NULL;
     /**
      * Be sure to declare properties for any property fetch you initialized.
      * The creation of dynamic property is deprecated in PHP 8.2.
@@ -59,9 +62,13 @@ abstract class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
-        $this->user_model=new UserModel();
+        $this->user_model = new UserModel();
+        $this->property_model = new PropertyModel();
+        $this->address_model = new AddressModel();
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+    
 }

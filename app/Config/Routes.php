@@ -29,12 +29,14 @@ $routes->setAutoRoute(false);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->add("/login","Home::login");
-$routes->add("/google/auth","Home::loginWithGoogle");
-$routes->add("/facebook/auth","Home::loginWithFacebook");
-
-
+$routes->get('/', 'Home::index');// page d'accueil
+$routes->add("/login","Home::login");// page de connexion/inscription
+$routes->add("/google/auth","Home::loginWithGoogle"); // connexion google
+$routes->add("/facebook/auth","Home::loginWithFacebook"); //connexion facebook
+$routes->add("/profile","Home::profile");// préparation du profil
+$routes->add("/user/dashboard","User::dashboard");// tableau de bord utilisateur
+$routes->add("/user/infos","User::infos");// informations personnelles
+$routes->add("/user/modif/(:segment)","User::modif/$1");// informations personnelles
 /*
  * --------------------------------------------------------------------
  * Additional Routing

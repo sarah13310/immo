@@ -4,17 +4,30 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PropertModely extends Model
+class PropertyModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'properties';
-    protected $primaryKey       = 'id';
+    protected $table            = 'property';
+    protected $primaryKey       = 'id_property';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = [
+        'id_property',
+        'name',
+        'type',
+        'surface',
+        'extras',
+        'room',
+        'price',
+        'date',
+        'rating',
+        'owner',
+        'id_address',
+        'status',
+    ];
 
     // Dates
     protected $useTimestamps = false;

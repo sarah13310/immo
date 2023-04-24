@@ -25,7 +25,15 @@ class Home extends BaseController
 
     public function index()
     {
-        return view('/Home/index.php');
+        $this->property_model->getProperties();
+        $listproperties = [];
+        $property_json = json_encode($listproperties);
+        file_put_contents("json/property.json", $property_json);
+
+        $data = [
+            'property_json' => base_url() . "json/property.json",
+        ];
+        return view('/Home/index.php', $data);
     }
 
     public function login()
@@ -39,7 +47,8 @@ class Home extends BaseController
 
     public function profile()
     {
-        return view('/Home/profile.php');
+        $data = ["name" => "", "email" => "",];
+        return view('/User/profile.php', $data);
     }
 
     public function loginWithGoogle()
@@ -93,5 +102,10 @@ class Home extends BaseController
             //
             return view('/User/profile.php', $data);
         }
+    }
+
+
+    public function manageCookies()
+    {
     }
 }

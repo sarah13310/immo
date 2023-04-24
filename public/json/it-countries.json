@@ -1,0 +1,15 @@
+[
+  { "pays": "Australie", "code_telephone": "+61" },
+  { "pays": "Canada", "code_telephone": "+1" },
+  { "pays": "Corée du Sud", "code_telephone": "+82" },
+  { "pays": "Émirats arabes unis", "code_telephone": "+971" },
+  { "pays": "États-Unis", "code_telephone": "+1" },
+  { "pays": "Hong Kong", "code_telephone": "+852" },
+  { "pays": "Israël", "code_telephone": "+972" },
+  { "pays": "Japon", "code_telephone": "+81" },
+  { "pays": "Koweït", "code_telephone": "+965" },
+  { "pays": "Nouvelle-Zélande", "code_telephone": "+64" },
+  { "pays": "Qatar", "code_telephone": "+974" },
+  { "pays": "Singapour", "code_telephone": "+65" },
+  { "pays": "Taïwan", "code_telephone": "+886" }
+]

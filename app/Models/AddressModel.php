@@ -7,14 +7,22 @@ use CodeIgniter\Model;
 class AddressModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'addresses';
-    protected $primaryKey       = 'id';
+    protected $table            = 'address';
+    protected $primaryKey       = 'id_address';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = [
+            'id_address',
+            'number',
+            'street',
+            'city',
+            'cp',
+            'region',
+            'country'
+    ];
 
     // Dates
     protected $useTimestamps = false;

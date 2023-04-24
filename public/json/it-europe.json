@@ -1,0 +1,14 @@
+[
+  { "pays": "Allemagne", "code_telephone": "+49" },
+  { "pays": "Belgique", "code_telephone": "+32" },
+  { "pays": "Espagne", "code_telephone": "+34" },
+  { "pays": "France", "code_telephone": "+33" },
+  { "pays": "Grèce", "code_telephone": "+30" },
+  { "pays": "Italie", "code_telephone": "+39" },
+  { "pays": "Luxembourg", "code_telephone": "+352" },
+  { "pays": "Pays-Bas", "code_telephone": "+31" },
+  { "pays": "Portugal", "code_telephone": "+351" },
+  { "pays": "Royaume-Uni", "code_telephone": "+44" },
+  { "pays": "Russie", "code_telephone": "+7" },
+  { "pays": "Suisse", "code_telephone": "+41" }
+]

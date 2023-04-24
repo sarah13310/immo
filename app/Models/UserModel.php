@@ -82,4 +82,13 @@ class UserModel extends Model
         }
         return $data;
     }
+
+    public function getInfos($id)
+    {
+        return $this->select("user.id_user, user.name, user.firstname, user.birthday, user.gender,
+         user.phone, user.mail, address.number, address.street,address.cp, address.city")
+         ->join("address", "user.id_user=address.id_address")
+         ->where('user.id_user', $id)
+         ->findAll();
+    }
 }
