@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="card">
+    <div class="card-login">
         <div class="close"><i class="fa fa-xmark"></i></div>
         <div class="caption">Connexion ou inscription</div>
         <form id="form_login" class="form" name="form_login" method="post">

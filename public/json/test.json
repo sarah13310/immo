@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Arles",
+    "type": "Particulier",
+    "src": "./img/img1.jpeg",
+    "ratings": 7.5,
+    "date": "2-15 avr",
+    "price": 749
+  },
+  {
+    "name": "Arles",
+    "type": "Professionnel",
+    "src": "./img/img2.jpeg",
+    "ratings": 7.9,
+    "date": "12-15 avr",
+    "price": 629
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Particulier",
+    "src": "./img/img3.jpeg",
+    "ratings": 5.5,
+    "date": "20-25 avr",
+    "price": 529
+  },
+  {
+    "name": "Marseille",
+    "type": "Particulier",
+    "src": "./img/img4.jpeg",
+    "ratings": 6.5,
+    "date": "5-25 avr",
+    "price": 649
+  },
+  {
+    "name": "Marseille",
+    "type": "Professionnel",
+    "src": "./img/img7.jpeg",
+    "ratings": 8.5,
+    "date": "8-19 avr",
+    "price": 249
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img5.jpeg",
+    "ratings": 6.4,
+    "date": "12-19 avr",
+    "price": 449
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img5.jpeg",
+    "ratings": 6.8,
+    "date": "22-29 avr",
+    "price": 419
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img7.jpeg",
+    "ratings": 6.4,
+    "date": "12-19 mai",
+    "price": 549
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img9.jpeg",
+    "ratings": 5.4,
+    "date": "22-29 juin",
+    "price": 1549
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img10.jpeg",
+    "ratings": 9.4,
+    "date": "12-19 juil",
+    "price": 526
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img11.jpeg",
+    "ratings": 8.4,
+    "date": "12-19 août",
+    "price": 629
+  },
+  {
+    "name": "Salon de provence",
+    "type": "Professionnel",
+    "src": "./img/img12.jpeg",
+    "ratings": 6.4,
+    "date": "12-19 oct",
+    "price": 539
+  }
+]

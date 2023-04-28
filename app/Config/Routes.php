@@ -34,9 +34,18 @@ $routes->add("/login","Home::login");// page de connexion/inscription
 $routes->add("/google/auth","Home::loginWithGoogle"); // connexion google
 $routes->add("/facebook/auth","Home::loginWithFacebook"); //connexion facebook
 $routes->add("/profile","Home::profile");// préparation du profil
+
 $routes->add("/user/dashboard","User::dashboard");// tableau de bord utilisateur
 $routes->add("/user/infos","User::infos");// informations personnelles
 $routes->add("/user/modif/(:segment)","User::modif/$1");// informations personnelles
+$routes->add("/showmap","Home::showmap");// préparation du profil
+$routes->add("/test","Home::test");// test
+
+$routes->add("/user/signin/chart","Home::chart");// test
+$routes->add("/user/signin/part1","Home::part1");// test
+$routes->add("/user/signin/part2","Home::part1-code");// test
+$routes->add("/user/signin/part3","Home::part2");// test
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

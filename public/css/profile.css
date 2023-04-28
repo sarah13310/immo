@@ -218,7 +218,7 @@ i.fa-solid.fa-lock {
   visibility: visible;
   position: relative;
   margin: 0 auto;
-  top: 100px;
+  top: 0px;
   width: 500px;
   border-radius: 20px;
   box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.2);
@@ -228,6 +228,7 @@ i.fa-solid.fa-lock {
   display: block;
   align-items: center;
   padding-bottom: 10px;
+  z-index:998;
 }
 
 

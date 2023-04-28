@@ -1,7 +1,7 @@
-<div class="footer">
+<footer class="footer">
 
     <div class="line1">
-        
+
         <div class="webline">
             <div>
                 <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="display:block;height:16px;width:16px;fill:currentColor" aria-hidden="true" role="presentation" focusable="false">
@@ -12,7 +12,7 @@
                 Français
             </div>
             <div>
-            &nbsp;&nbsp;€ EUR
+                &nbsp;&nbsp;€ EUR
             </div>
         </div>
         <div class="sp0"></div>
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="line1">
-    © 2023 Airbnb, Inc.
+        © 2023 Immo, Inc.
     </div>
-    <div class="line1"><span>Confidentialité&nbsp;.</span><span>&nbsp;Conditions générales&nbsp;.</span><span>&nbsp;Plan du siteFonctionnement du site&nbsp;.</span><span>&nbsp;Infos sur l'entreprise&nbsp;<span></div>
-</div>
+    <div class="line1"><span>Confidentialité&nbsp;.</span><span>&nbsp;Conditions générales&nbsp;.</span><span>&nbsp;Plan du site&nbsp;.<span>&nbsp;Fonctionnement du site&nbsp;.</span>&nbsp;</span><span>&nbsp;Infos sur l'entreprise&nbsp;<span></div>
+</footer>

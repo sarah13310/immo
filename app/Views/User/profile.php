@@ -21,7 +21,6 @@
         <button class="btn btn-black">OK</button>
         <button class="btn">Préférences de cookies</button>
         <div class="p2 center"><a>Continuer sans accepter</a></div>
-
     </div>
     <div class="modal-param ">
         <div class="header">Votre confidentialité</div>

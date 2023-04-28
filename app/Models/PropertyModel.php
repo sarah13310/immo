@@ -52,4 +52,19 @@ class PropertyModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+
+    public function getProperties($status=VERIFIED){
+        return $this->select("*")
+        ->join('address', 'property.id_address=address.id_address')  
+        ->where("property.status", $status)      
+        ->findAll();
+    }
+
+    public function getProperty($id){
+        return $this->select("*")
+        ->join('address', 'property.id_address=address.id_address')
+        ->where("property.id_property",$id)
+        ->findAll();
+    }
 }

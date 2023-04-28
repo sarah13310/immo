@@ -25,8 +25,12 @@ class Home extends BaseController
 
     public function index()
     {
-        $this->property_model->getProperties();
-        $listproperties = [];
+        $listproperties=$this->property_model->getProperties();
+        if ($listproperties==null){
+        
+        }
+        
+    
         $property_json = json_encode($listproperties);
         file_put_contents("json/property.json", $property_json);
 
@@ -107,5 +111,30 @@ class Home extends BaseController
 
     public function manageCookies()
     {
+    }
+
+    public function showmap(){
+        $data=[];
+        return view('/Home/showmap.php', $data);
+    }
+
+    public function test(){
+        return view('/Home/test.php');
+    }
+
+    public function chart(){
+        return view('/Home/chart.php');
+    }
+
+    public function part1(){
+        return view('/Home/account-part1.php');
+    }
+   
+    public function part1code(){
+        return view('/Home/account-part1-code.php');
+    }
+
+    public function part2(){
+        return view('/Home/account-part2.php');
     }
 }

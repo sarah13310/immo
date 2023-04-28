@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <header>
         <div class="menu-log">
             <a class="first" href="/login">Inscription</a>

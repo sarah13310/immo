@@ -1,5 +1,5 @@
 <header>
-    <div class="navbar">
+    <div class="mainmenu">
         <div class="logo"></div>
         <div class="spacer"></div>
         <div class="menu-right flex">
@@ -23,4 +23,5 @@
             <div class="img_profile"><img src="https://a0.muscache.com/defaults/user_pic-50x50.png?im_w=240"></div>
         </div>
     </div>
+    <div class="slides"></div>
 </header>

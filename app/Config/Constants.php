@@ -92,3 +92,14 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+
+define('VERIFIED', 10);
+define('PENDING', 20);
+define('REFUSED', 30);
+
+
+//TWILIO_ACCOUNT_SID='AC0948d9d48aedfdba109712de1149d6b9'
+//TWILIO_AUTH_TOKEN='ee8658074a76dc7cd0195f9102b630a5'
+//TWILIO_PHONE_FROM='+16315199768'
+

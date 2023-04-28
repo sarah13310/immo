@@ -27,7 +27,7 @@ body {
   color: var(--color1);
 }
 
-.card {
+.card-login {
   position: relative;
   border-radius: 4px;
   border: 1px solid var(--color2);
@@ -116,13 +116,6 @@ body {
   visibility: visible;
 }
 
-/*.form button:hover {*/
-/*    position: relative;*/
-/*    !*padding: 8px 16px;*!*/
-/*    filter: brightness(96%);*/
-/*    cursor: pointer;*/
-/*    width: 100%;*/
-/*}*/
 .container-social{
   display: block;
 }

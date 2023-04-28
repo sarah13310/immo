@@ -20,11 +20,12 @@ let months = ["Jan.", "Fév.", "Mar.", "Avr.", "Mai", "Jui.", "Jul.", "Aou.", "S
             }
         }
 
-        async function fillTelInter(el, file) {
+        async function fillTelInter(el, file, country) {
             el.innerHTML = ``;
             let response = await fetch(file);
             let data = await response.json();
             data.forEach(item => {
-                el.innerHTML += `<option>${item.pays} (${item.code_telephone})</option>`;
+                el.innerHTML += `<option value='${item.pays}'>${item.pays} (${item.code_telephone})</option>`;
             });
+            el.value=country;
         }
